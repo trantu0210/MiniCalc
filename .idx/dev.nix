@@ -87,17 +87,9 @@
           manager = "web";
         };
         android = {
-          manager = "flutter";
+          manager = "flutter";}
+
       };
     };
   };
 }
-
-
-
-
-
-
-
-
-
