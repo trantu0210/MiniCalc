@@ -80,11 +80,11 @@
             source $VENV_DIR/bin/activate
             
             # run app in hot reload mode on a port provided by IDX
-            flet run $MAIN_FILE --web --port $PORT
+            flet run $MAIN_FILE --android --port $PORT
             ''
           ];
           env = { PORT = "$PORT"; };
-          manager = "web";
+          manager = "android";
         };
       };
     };
