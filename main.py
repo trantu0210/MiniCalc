@@ -424,4 +424,4 @@ def main(page: ft.Page):
     page.on_route_change = router
     page.go("/")    
 
-ft.app(main, view=ft.AppView.WEB_BROWSER)
+ft.app(main)
