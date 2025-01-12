@@ -6,7 +6,7 @@
 
   packages = [    
     pkgs.python312Packages.flet
-    pkgs.jdk20
+    pkgs.jdk17
   ];
 
   # environment variables
