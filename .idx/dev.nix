@@ -4,8 +4,8 @@
   # nixpkgs channel
   channel = "stable-23.11";
 
-  packages = [
-    pkgs.python3
+  packages = [    
+    pkgs.python312Packages.flet
     pkgs.jdk20
   ];
 
