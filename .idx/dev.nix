@@ -87,8 +87,9 @@
           manager = "web";
         };
         android = {
-          manager = "flutter";};
-
+          command = ["flutter" "run" "--machine" "-d" "android" "-d" "localhost:5555"];
+          manager = "flutter";
+        };        
       };
     };
   };
